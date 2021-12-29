@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:wght@300&family=Nunito+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-box{
+    transform: translate(-70px,-100px);
+}
+/* 
+.heads{
+    color:#fff;
+    font-size:25px;
+
+    border: 3px solid #fff;
+    border-radius: 33px;
+    margin-left: 5px;
+} */
+
+.li-coll{
+    /* border-bottom:2px solid #000; */
+    background: -webkit-linear-gradient(-72deg,#201f41,#422d53,#912e54,#d1788f);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underlines{
+    width: 80px;
+    height: 3px;
+    background: #912e54;
+    margin: auto;
+}
+
+.footer-links{
+    text-decoration: none;
+    color:#fff;
+    font-size:1rem;
+}
+
+.icons .btns,.btns1{
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+
+    margin: 5px 0;
+}
+
+.btns:nth-child(1){
+    background: yellowgreen;
+}
+
+.btns:nth-child(2){
+    background: skyblue;
+}
+
+.btns1:nth-child(1){
+    background: blue;
+}
+
+.btns1:nth-child(2){
+    background: red;
+}
+
+.btns1,.btns:hover{
+    background: green;
+}
+
+.copyrights{
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(-180deg,#201f41,#912e54,#d1788f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ @media(max-width:845px){
+    .logo-box{
+        display:none;
+    }
+ }
